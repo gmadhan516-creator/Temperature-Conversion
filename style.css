@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(37, 90, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.items{
+    margin-top: 0;
+    text-align: center;
+    border: 0;
+    height: 325px;
+    width:200px ;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+.items:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+}
+#Heading{
+    color: aliceblue;
+    font-size: auto;
+}
+#input{
+   width: 75px;
+   height: 25px;
+   border: 2px solid black;
+   border-radius: 10;
+   padding: 0;
+   box-sizing: border-box;
+}
+#button{
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+    color: white;
+}
+#button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.60);
+}
+#Ans{
+    font-family: Arial, Helvetica, sans-serif;
+}
